@@ -2,7 +2,7 @@
   "name": "Codesmith-Attendance",
   "version": "0.0.1",
   "description": "Attendance app, API to GitHub Applications",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,10 +12,16 @@
   "author": "Aaron Willett <aaron.willett@codesmith.io",
   "license": "MIT",
   "devDependencies": {
+    "@playwright/test": "^1.27.0",
     "@types/jest": "^29.1.2",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1",
     "jest": "^29.1.2",
+    "playwright": "^1.27.0",
     "tailwindcss": "^3.1.8",
-    "typescript": "^4.8.4"
+    "typescript": "^4.8.4",
+    "webpack-dev-middleware": "^5.3.3",
+    "webpack-hot-middleware": "^2.25.2"
   },
   "dependencies": {
     "@types/react": "^18.0.21",
@@ -24,7 +30,8 @@
     "express-session": "^1.17.3",
     "next": "^12.3.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "webpack-cli": "^4.10.0"
   },
   "repository": "https://github.com/awillettnyc/Codesmith-Attendance.git",
   "private": false
