@@ -1,0 +1,24 @@
+{
+  "name": "Codesmith-Attendance",
+  "version": "0.0.1",
+  "description": "Attendance app, API to GitHub Applications",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": "Aaron Willett <aaron.willett@codesmith.io",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "repository": "https://github.com/awillettnyc/Codesmith-Attendance.git",
+  "private": false
+}
