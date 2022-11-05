@@ -1,6 +1,12 @@
-import '../styles/globals.css';
+import '../src/styles.module.css';
 import type { AppProps } from 'next/app';
+import { ThemeProvider } from 'theme-ui';
+import theme from '../theme';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+  return(
+    <ThemeProvider theme={theme}>
+      <Component {...pageProps} />
+    </ThemeProvider> 
+  )
 }

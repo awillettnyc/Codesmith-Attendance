@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/cohorts/[id]": [
+    "/cohorts/[cohortID]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/cohorts/[id].js"
+      "static/chunks/pages/cohorts/[cohortID].js"
     ]
   },
   "ampFirstPages": []
