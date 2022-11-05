@@ -1,5 +1,5 @@
-function HomePage() {
-  return <div>Codesmith Attendance Application!</div>
-}
+import React from 'react';
 
-export default HomePage;
+const Page = () => <div> Index Page</div>
+
+export default Page;

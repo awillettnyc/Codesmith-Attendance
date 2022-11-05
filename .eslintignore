@@ -1,6 +1,0 @@
-"scripts": {
-  ...
-  "lint:js": "eslint . --ext .js,.jsx,.ts,.tsx",
-  "lint:js:fix": "eslint . --fix --ext .js,.jsx,.ts,.tsx",
-  ...
-},
